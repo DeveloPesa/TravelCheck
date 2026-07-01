@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Logo dashboard voli">
+  <title>Flightpath</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1729"/>
+      <stop offset="100%" stop-color="#0B0F1A"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B7CF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="512" rx="122" fill="url(#bg)"/>
+
+  <path d="M 118 360 Q 190 210 330 150" fill="none" stroke="#38BDF8" stroke-width="7" stroke-linecap="round" stroke-dasharray="1 22" opacity="0.55"/>
+  <circle cx="118" cy="360" r="9" fill="#38BDF8" opacity="0.75"/>
+
+  <g transform="translate(256,256) rotate(-45) scale(1.28)">
+    <path d="M 175 0 L -95 -78 L -42 -14 L -95 78 Z" fill="url(#plane)"/>
+    <path d="M -42 -14 L -95 78 L -14 34 Z" fill="#0B0F1A" opacity="0.22"/>
+  </g>
+</svg>
